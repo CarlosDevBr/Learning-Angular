@@ -11,4 +11,9 @@ export class AppComponent {
   imagem:string = "https://www.viajali.com.br/wp-content/uploads/2017/09/paisagens-lindas-21.jpg"
   valor1:number = 1;
   valor2:number = 2;
+
+  //Função de clique
+  mensagem(){
+    window.alert("Olá mundo!");
+  }
 }
