@@ -14,5 +14,8 @@ export class AppComponent {
   }
 
   //Diretiva NGFOR
-  cursos = ["HTML e CSS", "PHP Básico", "PHP Avançado", "Angular"]
+  cursos = ["HTML & CSS", "PHP Básico", "PHP Avançado", "Angular"]
+
+  //Diretiva NGSWITCH
+  curso_selecionado = "Angular";
 }
