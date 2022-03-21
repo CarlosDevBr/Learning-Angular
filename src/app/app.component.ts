@@ -18,4 +18,7 @@ export class AppComponent {
 
   //Diretiva NGSWITCH
   curso_selecionado = "Angular";
+
+  //Diretiva NGCLASS
+  ligada:boolean = true;
 }
