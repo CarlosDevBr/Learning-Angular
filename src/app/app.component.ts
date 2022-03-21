@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //Variável da página 1
-  p1:boolean = true;
-
-  alterarPagina(){
-    this.p1 = !this.p1;
-  }
+  //Variável
+  nome:string = "Carl";
 }
