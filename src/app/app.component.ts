@@ -6,14 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //Criar variáveis
-  nome:string = "Carl";
-  imagem:string = "https://www.viajali.com.br/wp-content/uploads/2017/09/paisagens-lindas-21.jpg"
-  valor1:number = 1;
-  valor2:number = 2;
+  //Variável da página 1
+  p1:boolean = true;
 
-  //Função de clique
-  mensagem(){
-    
+  alterarPagina(){
+    this.p1 = !this.p1;
   }
 }
