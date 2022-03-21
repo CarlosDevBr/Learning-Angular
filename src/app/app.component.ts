@@ -12,4 +12,7 @@ export class AppComponent {
   acaoNgIf(){
     this.exibirTexto = !this.exibirTexto;
   }
+
+  //Diretiva NGFOR
+  cursos = ["HTML e CSS", "PHP Básico", "PHP Avançado", "Angular"]
 }

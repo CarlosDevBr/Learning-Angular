@@ -1,3 +1,9 @@
 <input type="button" value="enviar" (click)="this.acaoNgIf()">
 
 <h1 *ngIf="this.exibirTexto">Aprendendo Angular na Proway</h1>
+
+<hr>
+
+<ul *ngFor="let curso of cursos; let indice = index">
+    <li>{{indice}} {{curso}}</li>
+</ul>
