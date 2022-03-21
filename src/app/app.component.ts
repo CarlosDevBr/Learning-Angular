@@ -14,6 +14,6 @@ export class AppComponent {
 
   //Função de clique
   mensagem(){
-    window.alert("Olá mundo!");
+    
   }
 }

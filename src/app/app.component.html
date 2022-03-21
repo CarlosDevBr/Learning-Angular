@@ -1,17 +1,9 @@
-<!--
-<h1>{{nome}}</h1>
-<img src="{{imagem}}">
-<br>
-<img [src]="imagem">
-<br>
-<img bind-src="imagem">
+<!-- Seleção de páginas -->
+<span></span>
 
-<h2>{{valor1+valor2}}</h2>
+<!-- Seletor de páginas -->
+<button>Alterar página</button>
 
-<hr>
-
-<button (click)="mensagem()">Clique Aqui</button>
--->
-
-<input type="text" [(ngModel)]="nome">
-<h1>{{nome}}</h1>
+<!-- Template-->
+<ng-template #pagina1>Página 01</ng-template>
+<ng-template #pagina2>Página 02</ng-template>
