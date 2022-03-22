@@ -1,9 +1,9 @@
 <!-- Formulario -->
 <form>
-    <input type="text" placeholder="Curso">
-    <input type="number" placeholder="Valor">
-    <input type="text" placeholder="Área">
-    <input type="button" value="Cadastrar">
+    <input type="text" placeholder="Curso" [(ngModel)]="curso.nomeCurso" name="nomeCurso">
+    <input type="number" placeholder="Valor" [(ngModel)]="curso.valorCurso" name="valorCurso">
+    <input type="text" placeholder="Área" [(ngModel)]="curso.areaCurso" name="areaCurso">
+    <input type="button" value="Cadastrar" (click) ="cadastrar()">
 </form>
 
 <!-- Tabela -->
