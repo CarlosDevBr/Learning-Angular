@@ -17,8 +17,14 @@ export class CursosService {
   ];
 
   //Cadastro de cursos
+  public cadastrar(curso:Curso){
+    this.vetorCursos.push(curso);
+  }
 
   //Seleção de cursos
+  public listar(){
+    return this.vetorCursos;
+  }
 
   //Seleção de um curso específico
 
