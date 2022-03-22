@@ -29,4 +29,9 @@ export class CursosComponent implements OnInit {
     this.curso = new Curso();
   }
 
+  //Excluir
+  excluir(id:number){
+    this.servico.excluir(id);
+  }
+
 }

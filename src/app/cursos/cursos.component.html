@@ -15,9 +15,12 @@
         <td>Açoes</td>
     </tr>
 
-    <tr *ngFor="let curso of vetorCursos">
+    <tr *ngFor="let curso of vetorCursos; let id=index">
         <td>{{curso.nomeCurso}}</td>
         <td>{{curso.valorCurso}}</td>
         <td>{{curso.areaCurso}}</td>
+        <td>
+            <button (click)="excluir(id)">Excluir</button>
+        </td>
     </tr>
 </table>
