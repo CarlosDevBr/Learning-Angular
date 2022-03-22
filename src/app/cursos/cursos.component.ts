@@ -10,7 +10,7 @@ import { CursosService } from './cursos.service';
 export class CursosComponent implements OnInit {
 
   //Atributos
-  private vetorCursos:Curso[] | undefined;
+  public vetorCursos:Curso[] | undefined;
   private curso:Curso | undefined;
   private id: number | undefined;
 
@@ -18,7 +18,8 @@ export class CursosComponent implements OnInit {
   constructor(private servico:CursosService) { }
 
   //Inicialização
-  ngOnInit(): void {
+  ngOnInit() {
+    this.vetorCursos = this.servico.listar();
   }
 
 }

@@ -14,4 +14,10 @@
         <td>Área</td>
         <td>Açoes</td>
     </tr>
+
+    <tr *ngFor="let curso of vetorCursos">
+        <td>{{curso.nomeCurso}}</td>
+        <td>{{curso.valorCurso}}</td>
+        <td>{{curso.areaCurso}}</td>
+    </tr>
 </table>

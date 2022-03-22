@@ -10,7 +10,7 @@ export class CursosService {
   constructor() { }
 
   //Vetor de cursos
-  private vetorCursos:Curso[] = [
+  public vetorCursos:Curso[] = [
     new Curso("Angular", 800, "Desenvolvimento"),
     new Curso("PHP", 590, "Desenvolvimento"),
     new Curso("Photoshop", 470, "Desenvolvimento")  
