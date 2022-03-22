@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Curso } from './Curso';
 
 //Acesso total do serviço
 @Injectable({
@@ -9,6 +10,11 @@ export class CursosService {
   constructor() { }
 
   //Vetor de cursos
+  private vetorCursos:Curso[] = [
+    new Curso("Angular", 800, "Desenvolvimento"),
+    new Curso("PHP", 590, "Desenvolvimento"),
+    new Curso("Photoshop", 470, "Desenvolvimento")  
+  ];
 
   //Cadastro de cursos
 
