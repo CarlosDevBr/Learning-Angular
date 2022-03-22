@@ -29,6 +29,12 @@ export class CursosService {
   //Seleção de um curso específico
 
   //Alteração de cursos
+  public alterar(id:number, curso:Curso){
+    this.vetorCursos[id] = curso;
+  }
 
   //Exclusão de cursos
+  public excluir(id:number){
+    this.vetorCursos.splice(id, 1);
+  }
 }
